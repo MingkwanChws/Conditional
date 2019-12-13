@@ -1,5 +1,5 @@
 package com.company;
-
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
@@ -9,5 +9,17 @@ public class Main {
             }else{
                 System.out.println("Less than 5");
             }
+        int a;
+        int b;
+        Scanner ma = new Scanner(System.in);
+//        System.out.println("enter a");
+//        a = ma.nextDouble();
+//        System.out.println("enter b");
+//        b = ma.nextDouble();
+//        if (a>b) {
+//            System.out.println("a more than b");
+//        } else {
+//            System.out.println("b more than a");
+//        }
     }
 }
